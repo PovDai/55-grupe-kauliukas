@@ -67,6 +67,7 @@ justify-content: space-around;
 .history{
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     position: absolute;
     bottom: -12rem;
     width: 7rem;
