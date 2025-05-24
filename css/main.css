@@ -1,0 +1,87 @@
+body,
+body * {
+box-sizing: border-box;
+margin:0;
+padding:0;
+}
+body{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap:2rem;
+background-color: black;
+color: gold;
+}
+.container{
+    border: solid 5px green;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    width: 50vh;
+    height: 50vh;
+    background-color: black;
+    position: relative;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+justify-content: space-around;
+    width: 15vh;
+    height: 15vh;
+
+}
+.kamuoliukai{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 31vh;
+    height: 31vh;
+    background-color: green;
+  border: 2px solid gold;
+  gap:0 0;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background-color: black;
+    border: 2px solid gold;
+    color: gold;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.button{
+    color: gold;
+    background-color: green;
+    padding: 0.5rem;
+    border: solid 3px gold;
+}
+.history{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -12rem;
+    width: 7rem;
+    height: 10rem;
+}
+@media(max-width:440px){
+    .container{
+        width: 35vh;
+    height: 40vh;
+    }
+.button{
+    color: gold;
+    background-color: green;
+    padding: 0.2rem;
+    border: solid 3px gold;
+}
+
+}
