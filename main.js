@@ -37,7 +37,7 @@ kamuoliukaiDOM.insertAdjacentHTML('afterbegin',`<div class="box">${iskrites}</di
 pDOM.textContent=`Buvo išridenta: ${iskrites}`+ pDOM.textContent
 }else{
     kamuoliukaiDOM.innerHTML='';
-    pDOM.textContent='';
+    historyDOM.innerHTML=``
 }
 
 })
