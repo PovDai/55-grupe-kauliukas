@@ -9,11 +9,9 @@ appDOM.innerHTML=`   <div class="container">
             </div>
             <div class="kamuoliukai">
             </div>
+
             <div class="history">
-
-            <div class="p">Empty space
-            </div>  
-
+      
             </div>
         </div>`
 
@@ -21,9 +19,8 @@ const [btnStart,btnRestart]=appDOM.querySelectorAll('button');
 const kamuoliukaiDOM=appDOM.querySelector('.kamuoliukai');
 const boxTextDOM=appDOM.querySelector('.box')
 const historyDOM=appDOM.querySelector('.history');
-const pDOM=appDOM.querySelector('.p')
 
-pDOM.textContent='';
+
 
 btnStart.addEventListener('click',()=>{
 
@@ -34,7 +31,8 @@ const iskrites = variacijos[Math.floor(Math.random() * variacijos.length)];
 if(kamuoliukaiDOM.children.length<6){
 kamuoliukaiDOM.insertAdjacentHTML('afterbegin',`<div class="box">${iskrites}</div>`)
 
-pDOM.textContent=`Buvo išridenta: ${iskrites}`+ pDOM.textContent
+historyDOM.insertAdjacentHTML('afterbegin',`<div>Buvo išridenta: ${iskrites}</div>`)
+
 }else{
     kamuoliukaiDOM.innerHTML='';
     historyDOM.innerHTML=``
@@ -44,7 +42,6 @@ pDOM.textContent=`Buvo išridenta: ${iskrites}`+ pDOM.textContent
 btnRestart.addEventListener('click',()=>{
 
 kamuoliukaiDOM.innerHTML=''
-pDOM.textContent='';
 
 })
 
