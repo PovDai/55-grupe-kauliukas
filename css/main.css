@@ -69,9 +69,10 @@ justify-content: space-around;
     flex-direction: column;
     position: absolute;
     bottom: -12rem;
-    width: 7rem;
+    width: 10rem;
     height: 10rem;
 }
+
 @media(max-width:440px){
     .container{
         width: 35vh;
