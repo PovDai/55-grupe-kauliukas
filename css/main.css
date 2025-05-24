@@ -65,12 +65,12 @@ justify-content: space-around;
     border: solid 3px gold;
 }
 .history{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
     position: absolute;
     bottom: -12rem;
-    width: 7rem;
+    width: 9.5rem;
     height: 10rem;
 }
 
