@@ -42,6 +42,7 @@ historyDOM.insertAdjacentHTML('afterbegin',`<div>Buvo išridenta: ${iskrites}</d
 btnRestart.addEventListener('click',()=>{
 
 kamuoliukaiDOM.innerHTML=''
+historyDOM.innerHTML='';
 
 })
 
