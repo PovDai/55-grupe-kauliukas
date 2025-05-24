@@ -44,7 +44,7 @@ justify-content: space-around;
     height: 31vh;
     background-color: green;
   border: 2px solid gold;
-  gap:0 0;
+  
 }
 .box{
     display: flex;
