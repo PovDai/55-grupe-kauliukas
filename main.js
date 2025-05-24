@@ -31,7 +31,7 @@ const iskrites = variacijos[Math.floor(Math.random() * variacijos.length)];
 if(kamuoliukaiDOM.children.length<6){
 kamuoliukaiDOM.insertAdjacentHTML('afterbegin',`<div class="box">${iskrites}</div>`)
 
-pDOM.textContent=` Buvo išridenta: ${iskrites}`+ pDOM.textContent
+pDOM.textContent=`Išridenta: ${iskrites}`+ pDOM.textContent
 }else{
     kamuoliukaiDOM.innerHTML='';
     pDOM.textContent='';
