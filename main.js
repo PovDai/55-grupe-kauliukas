@@ -10,7 +10,10 @@ appDOM.innerHTML=`   <div class="container">
             <div class="kamuoliukai">
             </div>
             <div class="history">
-            <div class="p">Empty space</div>  
+
+            <div class="p">Empty space
+            </div>  
+
             </div>
         </div>`
 
